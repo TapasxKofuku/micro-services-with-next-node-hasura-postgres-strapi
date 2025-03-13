@@ -74,6 +74,12 @@ docker-compose down  # Stop all services
 
 docker-compose up -d # Restart all services
 ```
+### while start you may encounter that the postgres is running to stop 
+
+```
+sudo systemctl stop postgresql
+
+```
 
 ### **6. Access Services**
 - **Frontend (Next.js):** http://localhost:3000
